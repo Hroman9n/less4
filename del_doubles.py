@@ -2,8 +2,9 @@ import random
 
 def delitto(a):
 
-    repeated = []
-    res = []
+    repeated = []                       # сюда записываются впервые встречающиеся элементы
+    res = []                            # этот массив необходим, так как если мы будем удалять элементы из списка
+                                        # то получим ошибку IndexError
     for i in range(len(a)):
         if a[i] not in repeated:
             res.append(a[i])

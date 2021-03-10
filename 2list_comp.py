@@ -59,10 +59,10 @@ while 1:
     elif ask == "1":
         try:
             frsti = list(input("Введите значения первого списка через пробел: ").split())
-            frsti = list(map(int, frsti))
+            # frsti = list(map(int, frsti))
 
             scndi = list(input("Введите значения первого списка через пробел: ").split())
-            scndi = list(map(int, scndi))
+            # scndi = list(map(int, scndi))
         except ValueError:
             print("Ошибка ввода. Попробуйте ещё раз")
 
