@@ -44,12 +44,12 @@ while 1:
         
         res = bubble(arr)
     else:
-        print("Ошибка ввода. Попробуйте ещё раз")
+        print("\nОшибка ввода. Попробуйте ещё раз")
 
     print()
 
     if res != []:
-        print("Итоговый массив: ")
+        print("\nИтоговый массив: ")
         for i in res:
             print(i, end=" ")
     
